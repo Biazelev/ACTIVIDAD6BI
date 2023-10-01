@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comentarios Bianca</title>
+</head>
+<body>
+    <form action="#" method="post"> <!-- Esta etiqueta funciona para crear formularios en nuestra página, nos ayudan recopilar información del usuario (como en la sección del contacto de una página web), los campos que se ocupan son de texto, números, fechas y archivos -->
+        <label for="nombre">Nombre:</label> <!-- Se usa para la descripción de una sección del formulario. Si tenemos una entrada de tipo texto (nombre) ponemos esta describir el proposito de este campo -->
+        <input type="text" id="nombre" name="nombre"> <!-- Funciona para la recopilación del usuario a través de nuestros campos que asignamos en <label> -->
+        
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo">
+        
+        <label for="calificacion">Calificación de la Asignatura:</label>
+        <select id="calificacion" name="calificacion"> <!-- Funciona para hacer un menú desplegable, no ayuda a elegir una opción de muchas. -->
+          <option value="1">1</option> <!-- Es la función que representa la opción en nuestra lista. -->
+          ...
+          <option value="10">10</option>
+        </select>
+        
+        <label for="comentarios">Comentarios:</label>
+        <textarea id="comentarios" name="comentarios"></textarea> <!-- Esta etiqueta nos ayuda a crear el area donde van los comentarios, para poder hacer un texto multilínea dentro de nuestro formulario. Y no limitarlo a unas cuantas palabras. Es importante que siempre este dentro de la etiqueta <form>.-->
+        
+        <button type="submit">Enviar</button> <!-- Nos ayuda a la creación de un botón en nuestra página y pues es el que envía los datos de nuestro formulario una vez ya llenado. -->
+      </form>
+</body>
+</html>

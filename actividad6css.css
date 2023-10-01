@@ -1,0 +1,25 @@
+#contenido {
+	width: 200px;
+	height: 200px;
+	border: 1px solid dimgray;
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.caja {
+	width: 200px;
+	height: 200px;
+}
+
+#contenido2 {
+	width: 200px;
+	height: 200px;
+	border: 1px solid dimgray;
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.caja2 {
+	width: 200px;
+	height: 200px;
+}
